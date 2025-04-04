@@ -5,6 +5,12 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeChat.Core", "RealTimeChat.Core\RealTimeChat.Core.csproj", "{24504E5D-01AC-4B96-8463-BC6783802C15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeChat.Application", "RealTimeChat.Application\RealTimeChat.Application.csproj", "{43968317-6975-4A7A-AF3D-69D2E4CFD7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeChat.Infrastructure", "RealTimeChat.Infrastructure\RealTimeChat.Infrastructure.csproj", "{C7CED16D-F4CD-4B14-B1BD-B1842436E583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeChat.Presentation", "RealTimeChat.Presentation\RealTimeChat.Presentation.csproj", "{64771FDF-4ABD-4A87-8391-AA01ECFDE4C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{24504E5D-01AC-4B96-8463-BC6783802C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24504E5D-01AC-4B96-8463-BC6783802C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24504E5D-01AC-4B96-8463-BC6783802C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43968317-6975-4A7A-AF3D-69D2E4CFD7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43968317-6975-4A7A-AF3D-69D2E4CFD7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43968317-6975-4A7A-AF3D-69D2E4CFD7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43968317-6975-4A7A-AF3D-69D2E4CFD7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7CED16D-F4CD-4B14-B1BD-B1842436E583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CED16D-F4CD-4B14-B1BD-B1842436E583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CED16D-F4CD-4B14-B1BD-B1842436E583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CED16D-F4CD-4B14-B1BD-B1842436E583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64771FDF-4ABD-4A87-8391-AA01ECFDE4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64771FDF-4ABD-4A87-8391-AA01ECFDE4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64771FDF-4ABD-4A87-8391-AA01ECFDE4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64771FDF-4ABD-4A87-8391-AA01ECFDE4C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
