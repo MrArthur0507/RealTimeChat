@@ -23,4 +23,9 @@
     <Folder Include="Database\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RealTimeChat.Application\RealTimeChat.Application.csproj" />
+    <ProjectReference Include="..\RealTimeChat.Core\RealTimeChat.Core.csproj" />
+  </ItemGroup>
+
 </Project>
